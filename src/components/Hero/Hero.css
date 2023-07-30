@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+.containerHero {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerText {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText h1 {
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.containerText p {
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #5F5F5F;
+    width: 80%;
+}
+
+
+.btn {
+    border-radius: 1rem;
+    background: #FFF;
+    color: #EFAFBC;
+    box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border: none;
+    -webkit-animation: btn 0.9s both;
+    animation: btn 0.9s both;
+}
+
+.btn:hover {
+    background: #EFAFBC;
+    color: #FFF;
+    box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+    width: 61%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes btn {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        -webkit-transform: translateY(-24px);
+        transform: translateY(-24px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    65% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    82% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    93% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+@keyframes btn {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        -webkit-transform: translateY(-24px);
+        transform: translateY(-24px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    65% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    82% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    93% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+
+.containerMarcas{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.containerMarcas img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gancho{
+    background: #FFF;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.gancho h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+.gancho p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #5F5F5F;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.gancho span{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.feactures{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.feacture{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.feacture h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.feacture p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #5F5F5F;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.containerAction{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: #FFF;
+}
+
+.containerAction h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.containerAction p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #5F5F5F;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.btnAction{
+    border-radius: 1rem;
+    background: #FFF;
+    color: #EFAFBC;
+    box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    -webkit-animation: btn 0.9s both;
+    animation: btn 0.9s both;
+}
+
+.btnAction:hover{
+    background: #EFAFBC;
+    color: #FFF;
+    box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+    width: 41%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+@media (max-width:992px){
+    .containerHero{
+        width: 100%;
+        height: 50%;
+    }
+
+    .containerText h1{
+        width: 80%;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .feactures{
+        margin-top: 0;
+    }
+
+    .feacture h2{
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .feacture p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width:767px){
+
+    .containerHero {
+        width: 100%;
+        height: 50vh;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .containerText {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerText h1{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+
+    .containerText p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .btn{
+        width: 100%;
+        height: 15%;
+    }  
+
+    .gancho{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .feacture{
+        margin-top: 0;
+    }
+
+    .feacture h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .feacture p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 2rem;
+    }
+
+    .containerAction{
+        height: auto;
+    }
+
+    .containerAction h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .containerAction p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 2rem;
+    }
+
+    .btnAction{
+        width: 80%;
+        height: 15%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    .btn{
+        width: 100%;
+        height: 20%;
+    }  
+
+    .containerMarcas{
+        width: 100%;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:350px){
+    .containerMarcas{
+        margin-top: 8rem;
+    }
+}

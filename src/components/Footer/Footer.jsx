@@ -1,0 +1,44 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Footer = () => {
+  return (
+    <>
+      <div className="containerFooter" class="grid gap-4 md:gap-0 grid-cols-4 justify-around mx-16 tablet:grid-cols-2 mobile:grid-cols-none" >
+        <div className="company" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
+          <Link>Sobre Nosotros</Link>
+          <Link>Clientes</Link>
+          <Link>Blog</Link>
+        </div>
+
+        <div className="servicios" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
+          <Link>Servicios</Link>
+          <Link>Envíos</Link>
+          <Link>Devoluciones</Link>
+          <Link>Pagos</Link>
+          <Link>Contacto</Link>
+        </div>
+
+        <div className="redes" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
+          <Link>Facebook</Link>
+          <Link>Instagram</Link>
+          <Link>TikTok</Link>
+        </div>
+
+
+        <div className="terminos" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
+          <Link>Términos de servicios</Link>
+          <Link>Política de privacidad</Link>
+          <Link>Política de cookies</Link>
+          <Link>Política de privacidad</Link>
+        </div>
+
+      </div>
+        <div className="copy" class="flex justify-center mt-8">
+          <p>© 2021 Sara'sFashions. Todos los derechos reservados.</p>
+        </div>
+    </>
+  )
+}
+
+export default Footer
