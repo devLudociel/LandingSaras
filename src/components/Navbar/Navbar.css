@@ -81,11 +81,21 @@
     margin: auto;
 }
 
-.whatsapp i{
+.whatsapp:hover{
+    background-color: #ebb9dd;
+    color: #fff;
+}
+
+.whatsapp span{
     display: flex;
+    justify-content: space-around;
     color: #ebb9dd;
     font-size: 1.25rem;
     margin-right: 0.5rem;
+}
+
+.whatsapp span:hover{
+    color: #fff;
 }
 
 .navToggle{

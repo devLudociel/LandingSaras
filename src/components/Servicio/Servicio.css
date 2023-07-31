@@ -8,7 +8,7 @@
 }
 
 .title{
-    color: #5F5F5F;
+    color: #000000;
     font-family: Montserrat;
     font-size: 2.25rem;
     font-style: normal;
@@ -19,25 +19,33 @@
 .containerServicio{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 1rem;
 }
 
-.containerText{
+.containerTextS{
     display: flex;
     justify-content: center;
+    text-align: left;
     align-items: center;
     flex-direction: column;
     margin-left: 2rem;
 }
-.containerText p{
-    color: #5F5F5F;
+
+.containerTextS p{
+    color: #000000;
+    text-align: left;
     font-family: Montserrat;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-top: 2rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.parrafo{
+    width: 80%;
 }
 
 .titleH2{
@@ -47,17 +55,223 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .containerImg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-right: 4rem;
 }
 
 .img1{
     width: 400px;
     height: 400px;
+}
+
+.containerExplication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    background: #FFF;
+    padding: 2rem;
+}
+
+.containerExplication h1{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.containerExplication h2{
+    color: #000000;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.explication{
+    margin-bottom: 4rem;
+}
+
+.containerTextE{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.containerTextE p{
+    color: #000000;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.containerTextE img{
+    width: 30%;
+    height: 30%;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+@media (max-width:767px){
+    .containerS{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:650px){
+    .containerS{
+        margin-top: 11rem;
+    }
+
+    .containerServicio{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:640px){
+    .containerS{
+        margin-top: 10rem;
+    }
+
+    .containerS h1{
+        font-size: 1.5rem;
+    }
+
+    .containerTextS{
+        margin-left: 0rem;
+    }
+
+    .containerTextS p{
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .containerExplication h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .containerTextE{
+        margin-left: 0rem;
+    }
+
+    .containerTextE h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .containerTextE p{
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .containerImg img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .containerImg img:nth-child(2){
+        display: none;
+    }
+    .containerImg img:nth-child(3){
+        display: none;
+    }
+}
+
+@media (max-width:445px){
+    .containerS{
+        margin-top: 0rem;
+    }
+
+    .containerS h1{
+        font-size: 1.5rem;
+    }
+
+    .containerTextS{
+        margin-left: 0rem;
+    }
+
+    .containerTextS p{
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
+
+    .containerImg{
+        margin-left: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .containerExplication h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .containerTextE{
+        margin-left: 0rem;
+    }
+
+    .containerTextE h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .containerTextE p{
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .containerImg img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .containerImg img:nth-child(2){
+        display: none;
+    }
+    .containerImg img:nth-child(3){
+        display: none;
+    }
+}
+
+@media (max-width:375px){
+    .containerS{
+        margin-top: -1rem;
+    }
+}
+
+@media (max-width:35px){
+    .containerS{
+        margin-top: 5rem;
+    }
 }

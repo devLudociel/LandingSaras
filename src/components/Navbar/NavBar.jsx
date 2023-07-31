@@ -29,12 +29,10 @@ const NavBar = () => {
         
       <div className="whatsapp">
         <a href="https://wa.me/34643037152?text=Hola%20Sara'sFashions%20quiero%20comprar%20en%20Shein" target="_blank" rel="noreferrer">
-          <i>
-            <BsWhatsapp />
-          </i>
-          <i>
-            <AiOutlineArrowRight />
-          </i>
+          <span>
+          <i><BsWhatsapp /></i>
+          <i><AiOutlineArrowRight /></i>
+          </span>
         </a>
       </div>
       </div>

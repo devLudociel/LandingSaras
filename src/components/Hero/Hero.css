@@ -391,7 +391,7 @@
         padding: 0 2rem;
     }
 }
-@media screen and (max-width:767px){
+@media (max-width:767px){
 
     .containerHero {
         width: 100%;
@@ -428,12 +428,25 @@
 
     .btn{
         width: 100%;
+        height: 10%;
+    }
+
+    .btn:hover{
+        width: 100%;
         height: 15%;
-    }  
+    }
 
     .gancho{
         height: auto;
         padding: 2rem;
+    }
+
+    .gancho p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 2rem;
     }
 
     .feacture{
@@ -481,16 +494,50 @@
     }
 }
 
-@media screen and (max-width:576px){
+@media (max-width:576px){
 
     .btn{
         width: 100%;
-        height: 20%;
-    }  
+        height: 25%;
+    } 
+    
+    .btn:hover{
+        width: 100%;
+        height: 25%;
+    }
 
     .containerMarcas{
         width: 100%;
         margin-top: 4rem;
+    }
+
+    .containerText{
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+
+    .gancho h2{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .gancho p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 2rem;
+    }
+
+    .btnAction:hover{
+        background: #EFAFBC;
+        color: #FFF;
+        box-shadow: 0px 7px 20px 0px rgba(121, 188, 207, 0.40);
+        width: 81%;
+        height: 20%;
+        
     }
 }
 
