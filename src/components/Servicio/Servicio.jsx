@@ -56,8 +56,7 @@ const Servicio = () => {
           </div>
           <div className="containerTextE">
             <h2 className="titleH2">2. Realiza el pago solo de la MITAD del valor</h2>
-            <p>Realiza el pago de tus productos a través de nuestra página
-              web.</p>
+            <p>Realiza el pago de tus productos a través de diferentes metodos de pago, enviamos un mensaje al Whatsapp para enterarte de ellos.</p>
               <div className="containerImg">
               <img src={paga} alt="" />
               <img src={paga1} alt="" />
@@ -66,7 +65,7 @@ const Servicio = () => {
           </div>
           <div className="containerTextE">
             <h2 className="titleH2">3. Recibe tus productos y Cancela la otra MITAD del pago</h2>
-            <p>Recibe tus productos en la puerta de tu casa.</p>
+            <p>Recibe tus productos en la puerta de tu casa, por alguna agencia de envios o entrega personal.</p>
             <div className="containerImg">
               <img src={entregar} alt="" />
               <img src={entregar1} alt="" />

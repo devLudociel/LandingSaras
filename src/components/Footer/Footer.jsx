@@ -6,20 +6,21 @@ const Footer = () => {
     <>
       <div className="containerFooter" class="grid gap-4 md:gap-0 grid-cols-4 justify-around mx-16 tablet:grid-cols-2 mobile:grid-cols-none" >
         <div className="company" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
-          <Link>Sobre Nosotros</Link>
+          <strong>Sobre Nosotros</strong>
           <Link>Clientes</Link>
           <Link>Blog</Link>
         </div>
 
         <div className="servicios" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
-          <Link>Servicios</Link>
+          <strong>Servicios</strong>
+          <Link to="/servicio">¿Como funciona?</Link>
           <Link>Envíos</Link>
-          <Link>Devoluciones</Link>
           <Link>Pagos</Link>
           <Link>Contacto</Link>
         </div>
 
         <div className="redes" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
+          <strong>Redes Sociales</strong>
           <Link>Facebook</Link>
           <Link>Instagram</Link>
           <Link>TikTok</Link>
@@ -27,8 +28,8 @@ const Footer = () => {
 
 
         <div className="terminos" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
-          <Link>Términos de servicios</Link>
-          <Link>Política de privacidad</Link>
+          <strong>Términos de servicios</strong>
+          <Link to="/Politica-de-privacidad">Política de privacidad</Link>
           <Link>Política de cookies</Link>
           <Link>Política de privacidad</Link>
         </div>

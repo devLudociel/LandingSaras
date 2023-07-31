@@ -4,6 +4,7 @@ import Servicio from "./components/Servicio/Servicio"
 import Ask from "./components/AskFrecuency/Ask"
 import Contacto from "./components/Contacto/Contacto"
 import{BrowserRouter, Routes, Route} from "react-router-dom"
+import PoliticaPrivacidad from './components/Politicas/PoliticaPrivacidad'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path="/servicio" element={<Servicio />} />
         <Route path="/ask" element={<Ask />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path='/Politica-de-privacidad' element={<PoliticaPrivacidad/>}/>
+        
       </Routes>
     </BrowserRouter>
     </>
