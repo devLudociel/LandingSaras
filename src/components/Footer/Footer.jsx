@@ -16,7 +16,7 @@ const Footer = () => {
           <Link to="/servicio">¿Como funciona?</Link>
           <Link>Envíos</Link>
           <Link>Pagos</Link>
-          <Link>Contacto</Link>
+          <Link to="/contacto">Contacto</Link>
         </div>
 
         <div className="redes" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
@@ -30,8 +30,6 @@ const Footer = () => {
         <div className="terminos" class="grid gap-3 grid-cols-1 grid-rows-3 py-5 ">
           <strong>Términos de servicios</strong>
           <Link to="/Politica-de-privacidad">Política de privacidad</Link>
-          <Link>Política de cookies</Link>
-          <Link>Política de privacidad</Link>
         </div>
 
       </div>

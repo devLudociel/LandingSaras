@@ -3,16 +3,22 @@ export default {
   content: ["./src/**/*.{js,jsx}","./main.jsx","./index.html","./App.jsx"],
   theme: {
     screens: {
-      'mobile': '320px',
-      // => @media (min-width: 320px) { ... }
-      'tablet': '640px',
+      'xs': '320px',
+
+      'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... };
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
 
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... };
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
     extend: {},
   },

@@ -11,7 +11,9 @@ const NavBar = () => {
   return (
     <nav className='containerNav'>
       <div className='containerLogo'>
+        <Link to="/">
         <h1 className='logo'>Sara´sFashions</h1>
+        </Link>
         <div className={`navToggle ${show && "open"}`} onClick={() => setShow(!show)}>
           <span></span>
           <span></span>

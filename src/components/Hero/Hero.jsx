@@ -4,12 +4,12 @@ import imgS from "../../../src/assets/Shein.png"
 import imgR from "../../../src/assets/Romwe.png"
 import imgSt from "../../../src/assets/Stripe.png"
 import imgB from "../../../src/assets/Binance.png"
+import Testimonials from '../Testimonials/Testimonials'
 import feacture1 from "../../../src/assets/feacture1.png"
 import feacture2 from "../../../src/assets/entrega.png"
 import feacture3 from "../../../src/assets/pago.png"
 import NavBar from '../Navbar/NavBar'
 import { BsArrowDown } from "react-icons/bs"
-import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 
 const Hero = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
             Es posible con nuestro Servicio
           </h1>
           <p className="text">Compra en la amplia colección de Shein y deja que Sara'sFashions se encargue del envío y la entrega. Disfrute de una entrega garantizada del producto y de cómodas opciones de pago en dos plazos. ¡Manténgase elegante sin esfuerzo!</p>
-          <button className="btn">ENVIAR MENSAJE AL WHATSAPP PARA EMPEZAR A COMPRAR</button>
+          <a href="https://wa.me/584245456897?text=Hola%20Saras´sFashions%20quiero%20comprar%20en%20Shein" className="btn">ENVIAR MENSAJE AL WHATSAPP PARA EMPEZAR A COMPRAR</a>
         </div>
       </div>
 
@@ -40,7 +40,6 @@ const Hero = () => {
           <br />
           Compras fáciles y pagos flexibles.</h2>
         <p>Compra las últimas tendencias de Shein sin las molestias del envío y la entrega. Con Sara'sFashions, puede disfrutar de una entrega garantizada de los productos y de la comodidad de pagar en dos plazos. Manténgase a la moda sin arruinarse.</p>
-
         <p>Estos son Algunos de Nuestros Beneficios</p>
         <span>
           <BsArrowDown />
@@ -54,6 +53,8 @@ const Hero = () => {
 
         </span>
       </div>
+
+      <Testimonials/>
 
       <div className="feactures">
         <div className="feacture">
@@ -87,7 +88,7 @@ const Hero = () => {
       <div className="containerAction">
         <h2>¿Listo para comprar en Shein?</h2>
         <p>Compre en Shein y deje que Sara'sFashions se encargue del envío y la entrega. Disfrute de una entrega garantizada del producto y de cómodas opciones de pago en dos plazos. ¡Manténgase elegante sin esfuerzo!</p>
-        <button className="btnAction">ENVIAR MENSAJE AL WHATSAPP PARA EMPEZAR A COMPRAR</button>
+        <a href="https://wa.me/584245456897?text=Hola%20Sara'sFashions%20quiero%20comprar%20en%20Shein" className="btnAction">ENVIAR MENSAJE AL WHATSAPP PARA EMPEZAR A COMPRAR</a>
       </div>
       <Footer />
     </>
